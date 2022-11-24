@@ -4,8 +4,8 @@
 @tailwind utilities;
 
 .social-icon {
-  @apply w-8 h-8 p-4 mx-3 cursor-pointer border border-white rounded-full flex items-center justify-center transition-all hover:scale-125;
+  @apply w-8 h-8 p-4 mx-3 cursor-pointer shadow-md border border-slate-800 dark:border-white rounded-full flex items-center justify-center transition-all hover:scale-125 hover:text-slate-100;
 }
 .input {
-  @apply mb-5 w-full py-2 pl-3 rounded-md font-semibold tracking-wider text-black bg-slate-200 focus:bg-slate-100 focus:outline-none focus:ring focus:ring-secondary;
+  @apply mb-5 w-full py-2 pl-3 rounded-md font-semibold tracking-wider bg-slate-50 text-slate-800 shadow-md focus:bg-slate-100 focus:outline-none focus:ring focus:ring-secondary;
 }
