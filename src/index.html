@@ -18,17 +18,19 @@
       <div id="top" class="text-center mb-5">
         <p class="text-3xl mb-4">Sign in</p>
         <div class="flex justify-center items-center">
-          <div class="social-icon">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <div class="social-icon hover:bg-facebook">
+            <a href="#"><i class="fa-brands fa-facebook-f pt-1"></i></a>
           </div>
-          <div class="social-icon">
+          <div
+            class="social-icon hover:bg-gradient-to-b from-igtop via-igmid to-igb"
+          >
             <a href="#">
-              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-instagram pt-1"></i>
             </a>
           </div>
-          <div class="social-icon">
+          <div class="social-icon hover:bg-twitter">
             <a href="#">
-              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-twitter pt-1"></i>
             </a>
           </div>
         </div>
@@ -44,12 +46,18 @@
             type="checkbox"
             name="rememberMe"
             id="check"
-            class="accent-seclight"
+            class="accent-seclight cursor-pointer"
           />
-          <label for="check" class="text-sm ml-1">Remember Me</label>
+          <label for="check" class="text-sm ml-1 cursor-pointer"
+            >Remember Me</label
+          >
         </div>
         <div>
-          <p class="text-sm text-secondary">Forgot Password?</p>
+          <p
+            class="text-sm cursor-pointer font-bold text-secondary hover:text-seclight"
+          >
+            Forgot Password?
+          </p>
         </div>
       </div>
       <div class="w-full my-5">
@@ -60,7 +68,9 @@
         </button>
       </div>
       <div class="flex justify-center">
-        <p class="text-sm text-slate-500 underline">
+        <p
+          class="text-sm text-slate-500 underline cursor-pointer hover:text-slate-400"
+        >
           Privacy Policy Terms & Conditions
         </p>
         <p></p>
