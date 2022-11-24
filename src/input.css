@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@200;300;400;500;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.social-icon {
+  @apply w-8 h-8 p-4 mx-3  border border-white rounded-full flex items-center justify-center;
+}
+.input {
+  @apply mb-5 w-full py-2 pl-3 rounded-md font-semibold tracking-wider text-black bg-slate-200 focus:bg-slate-100 focus:outline-none focus:ring focus:ring-secondary;
+}
